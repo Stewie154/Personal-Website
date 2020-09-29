@@ -121,8 +121,6 @@ nav{
     background-repeat: no-repeat;
     align-items: center;
     margin-top: 5vh;
-    
-    
 }
 .about-content {
     width: 100%;
@@ -133,4 +131,75 @@ nav{
 .about-content h1, p{
     margin-top: 1.5vh;
     margin-bottom: 1.5vh;
+}
+
+h1 {
+    font-size: 3vw;
+    text-align: center;
+    align-items: center;
+    color: rgb(240, 227, 227);
+    text-decoration: underline;
+    margin-top: 1.5vh;
+    
+}
+p{
+    font-size: 1.25vw;
+}
+
+.projects-container{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background-color: #202421;
+    margin: 0 auto;
+}
+
+.display-container{
+    width: 50%;
+    text-align: center;
+}
+.screenshot{
+    width: 50%;
+    margin-bottom: 1vh;
+}
+.display-container h2{
+    font-size: 2vw;
+    color: rgb(240, 227, 227);
+    margin: 2vw;
+    text-decoration: underline;
+    
+}
+.display-container p{
+    color: rgb(240, 227, 227);
+}
+
+.buttons-container{
+    width: 50%;
+    text-align: center;
+    
+}
+.btn{
+    width: 17vw; 
+    min-height: 5vh;
+    padding: 10px 5px; 
+    margin: 1vw;
+    font-size: 1.75vw;
+    border: 5px solid rgb(22, 21, 21);
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(240, 227, 227);
+    color: rgb(22, 21, 21);
+    transition: 0.8s;
+}
+.btn:hover{
+    background-color: #d6292e;
+}
+
+@media screen and (min-width: 1000px){
+    /* Makes background picture more visible on wider screens*/
+    .about-container{
+        min-height: 500px;
+    }
+
 }
