@@ -175,6 +175,7 @@ p{
 .screenshot{
     width: 50%;
     margin-bottom: 1vh;
+    box-shadow: 0 0 10px 5px;
 }
 .display-container h2{
     font-size: 2vw;
@@ -216,4 +217,47 @@ p{
         min-height: 500px;
     }
 
+}
+
+.contact-title{
+    margin-top: 5vh;
+    text-align: center;
+    color: rgb(240, 227, 227);
+}
+
+.contact-container{
+    width: 80%;
+    background-color:#202421;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.contact-links{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 2vh;
+}
+.contact-links li{
+    margin: 3vh;
+    
+}
+.contact-links img{
+    width: 5vw;
+    transition: 0.8s;
+}
+.contact-links img:hover{
+    opacity: 0.3;
+}
+.email{
+    width: 80%;
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(240, 227, 227);
+    background-color:#202421;
+    text-decoration: italic;
+    margin: 0 auto;
 }
