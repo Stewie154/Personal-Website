@@ -134,6 +134,7 @@ nav{
     background-repeat: no-repeat;
     align-items: center;
     margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 .about-content {
     width: 100%;
@@ -258,6 +259,60 @@ p{
     font-size: 2vw;
     color: rgb(240, 227, 227);
     background-color:#202421;
-    text-decoration: italic;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 414px){
+
+    .about-container{
+    height: 30vh;
+    }
+    h1 {
+    font-size: 5vw;
+    }
+    p{
+    font-size: 2.5vw;
+    }
+
+    .projects-container{
+    flex-wrap: wrap;
+    }
+    .display-container{
+    width: 100%;
+    }
+    .screenshot{
+    width: 75%;
+    margin-bottom: 1vh;
+    box-shadow: 0 0 10px 5px;
+    }
+    .display-container h2{
+    font-size: 4vw;
+    }
+    .display-container p{
+    font-size: 2.5vw;
+    }
+
+    .buttons-container{
+    width: 100%;
+    }
+    .btn{
+    width: 30vw; 
+    font-size: 3vw;
+    }
+
+    .contact-title h1{
+        font-size: 5vw;
+    }
+    
+    .contact-container{
+        width: 100%;
+    }
+    .contact-links img{
+        width: 10vw;
+    }
+    .email{
+        width: 100%;
+        font-size: 4vw;
+    }
+
+    }
