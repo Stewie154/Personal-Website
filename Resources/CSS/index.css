@@ -13,6 +13,8 @@ body{
     background-color: rgb(22, 21, 21);
 }
 
+/* Nav bar css */
+
 nav{
     display: flex;
     position: sticky;
@@ -124,6 +126,7 @@ nav{
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
+/* about section */
 .about-container{
     display: flex;
     width: 80%;
@@ -160,6 +163,15 @@ p{
     font-size: 1.25vw;
 }
 
+@media screen and (min-width: 1000px){
+    /* Makes background picture more visible on wider screens*/
+    .about-container{
+        min-height: 500px;
+    }
+
+}
+
+/* projects section */
 .projects-container{
     display: flex;
     align-items: center;
@@ -212,14 +224,9 @@ p{
     background-color: #d6292e;
 }
 
-@media screen and (min-width: 1000px){
-    /* Makes background picture more visible on wider screens*/
-    .about-container{
-        min-height: 500px;
-    }
 
-}
 
+/* contact section */
 .contact-title{
     margin-top: 5vh;
     text-align: center;
@@ -262,6 +269,7 @@ p{
     margin: 0 auto;
 }
 
+/* media query for mobile screens */
 @media only screen and (max-width: 414px){
 
     .about-container{
