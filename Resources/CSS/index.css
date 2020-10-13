@@ -148,6 +148,7 @@ nav{
 .about-content h1, p{
     margin-top: 1.5vh;
     margin-bottom: 1.5vh;
+    padding: 2vh;
 }
 
 h1 {
@@ -157,7 +158,6 @@ h1 {
     color: rgb(240, 227, 227);
     text-decoration: underline;
     margin-top: 1.5vh;
-    
 }
 p{
     font-size: 1.25vw;
@@ -199,6 +199,7 @@ p{
 }
 .display-container p{
     color: rgb(240, 227, 227);
+    margin-left: 1vw;
 }
 
 .buttons-container{
@@ -251,6 +252,7 @@ p{
 }
 .contact-links li{
     margin: 3vh;
+    margin-bottom: 0;
     
 }
 .contact-links img{
@@ -267,6 +269,7 @@ p{
     color: rgb(240, 227, 227);
     background-color:#202421;
     margin: 0 auto;
+    padding: 5vh;
 }
 
 /* media query for mobile screens */
