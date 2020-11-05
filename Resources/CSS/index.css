@@ -158,6 +158,8 @@ h1 {
     color: rgb(240, 227, 227);
     text-decoration: underline;
     margin-top: 1.5vh;
+    padding-bottom: 3vh;
+    
 }
 p{
     font-size: 1.25vw;
@@ -172,7 +174,7 @@ p{
 }
 
 /* projects section */
-.projects-container{
+.default-container{
     display: flex;
     align-items: center;
     width: 80%;
@@ -223,6 +225,24 @@ p{
 }
 .btn:hover{
     background-color: #d6292e;
+}
+
+/* problem solving */
+
+.hide{
+    display: none;
+    transition: 0.6s;
+}
+
+#problem-solving .screenshot{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#sol2 .screenshot{
+    width: 40%;
 }
 
 
